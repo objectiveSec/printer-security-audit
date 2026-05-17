@@ -1,14 +1,14 @@
 # hp-joblog-parser
 
-Small script for checking HP printer Job Log exports.
+Небольшой скрипт для проверки экспортов HP Job Log.
 
-I made this after a real case where an office HP printer started printing a lot of junk pages.  
-In the printer logs there were many jobs from `Guest` with `source_IP=0.0.0.0`.
+Сделал его после реального случая, когда офисный HP-принтер начал печатать большое количество мусорных страниц.
+В логах принтера было много заданий от `Guest` с `source_IP=0.0.0.0`.
 
-This script does not detect hackers or anything like that.  
-It just helps to quickly check a saved/exported printer log and count suspicious-looking print jobs.
+Этот скрипт не ищет хакеров или что-то подобное.
+Он просто помогает быстро проверить сохранённый/export-файл логов принтера и посчитать подозрительно выглядящие print jobs.
 
-## What it checks
+## Что проверяет
 
 - jobs from `Guest`
 - jobs with `source_IP=0.0.0.0`
