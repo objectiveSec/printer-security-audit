@@ -16,13 +16,13 @@
 - repeated source IPs
 - total number of print jobs
 
-## Example
+## Пример
 
 ```bash
 python hp_joblog_parser.py examples/sample_log.txt
 ```
 
-Example output:
+Пример вывода:
 
 ```text
 total jobs: 5
