@@ -1,0 +1,5 @@
+syslogMessage="Print job completion" time="2026-04-13 12:47" job_name="\\" user="Guest" source_IP="0.0.0.0"
+syslogMessage="Print job completion" time="2026-04-13 12:48" job_name="\\" user="Guest" source_IP="0.0.0.0"
+syslogMessage="Print job completion" time="2026-04-13 12:49" job_name="\\" user="Guest" source_IP="0.0.0.0"
+syslogMessage="Print job completion" time="2026-04-13 12:50" job_name="invoice.pdf" user="petrov" source_IP="10.10.12.44"
+syslogMessage="Print job completion" time="2026-04-13 12:51" job_name="\\" user="Guest" source_IP="0.0.0.0"
