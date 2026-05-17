@@ -38,12 +38,12 @@ top source IPs:
 10.10.12.44: 1
 ```
 
-## Why this can be useful
+## Зачем это может быть полезно
 
-When a printer starts printing garbage, the log can be hard to read manually.  
-This script gives a quick summary, so it is easier to notice if many jobs come from `Guest` or `0.0.0.0`.
+Когда принтер начинает печатать мусорные страницы, вручную разбирать Job Log неудобно.
+Скрипт быстро показывает краткую статистику и помогает заметить большое количество заданий от `Guest` или `0.0.0.0`.
 
-In my case this was probably related to direct printing, RAW/9100, a stuck print queue, or a broken driver.
+В моём случае это, скорее всего, было связано с direct printing, RAW/9100, зависшей очередью печати или проблемным драйвером.
 
 ## Files
 
