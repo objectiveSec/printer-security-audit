@@ -7,7 +7,7 @@
 
 Этот скрипт помогает быстро проверить сохранённый/export-файл логов принтера и посчитать подозрительно выглядящие print jobs.
 
-## Что проверяет
+## Checks
 
 - jobs from `Guest`
 - jobs with `source_IP=0.0.0.0`
@@ -15,7 +15,7 @@
 - repeated source IPs
 - total number of print jobs
 
-## Пример
+## Example
 
 ```bash
 python hp_joblog_parser.py examples/sample_log.txt
@@ -37,7 +37,7 @@ top source IPs:
 10.10.12.44: 1
 ```
 
-## Для чего нужен
+## Application
 
 Когда принтер начинает печатать мусорные страницы, вручную разбирать Job Log неудобно.
 Скрипт быстро показывает краткую статистику и помогает заметить большое количество заданий от `Guest` или `0.0.0.0`.
